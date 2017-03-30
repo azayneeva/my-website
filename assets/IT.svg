@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>IT</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="35.7142857" cy="35.7142857" r="35.7142857"></circle>
+        <rect id="path-3" x="0" y="0" width="100.985265" height="97.5659014" rx="2"></rect>
+        <rect id="path-5" x="2.40441107" y="3.25219671" width="96.1764426" height="91.0615079" rx="1"></rect>
+    </defs>
+    <g id="Resume" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="my-cv" transform="translate(-553.000000, -2741.000000)">
+            <g id="tools&amp;skills" transform="translate(147.000000, 2117.000000)">
+                <g id="IT" transform="translate(406.000000, 624.000000)">
+                    <g>
+                        <path d="M50,100 C77.6142375,100 100,77.6142375 100,50 C100,22.3857625 77.6142375,0 50,0 C36.7034417,0 24.6191201,5.19020205 15.662469,13.6551722 C6.01798409,22.7702171 0,35.6823208 0,50 C0,77.6142375 22.3857625,100 50,100 Z" id="Oval-10" fill="#EDEDED"></path>
+                        <path d="M49.5176212,50.7142857 C49.3749691,50.8291941 49.2857143,50.8512622 49.2857143,50.7142857 C49.2857143,23.1000482 70.6000482,0 98.2142857,0 C98.3307378,0 98.4105195,0.0404023611 98.4574156,0.117317686 L98.5714286,4.51194637e-13 L99.9114362,50.7142857 L49.5176213,50.7142857 Z" id="Combined-Shape" fill="#CEC9C9" transform="translate(74.598575, 25.404462) scale(-1, 1) translate(-74.598575, -25.404462) "></path>
+                        <g id="Group-7" transform="translate(14.285714, 14.285714)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Oval-11" fill="#D8D8D8" xlink:href="#path-1"></use>
+                            <g id="IT" mask="url(#mask-2)">
+                                <g transform="translate(-14.285714, -12.142857)">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="background" stroke="none" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                    <rect id="left" stroke="none" fill="#73AD97" fill-rule="evenodd" mask="url(#mask-4)" x="0" y="0" width="33.6617549" height="97.5659014"></rect>
+                                    <rect id="right" stroke="none" fill="#F27C8A" fill-rule="evenodd" mask="url(#mask-4)" x="67.3235098" y="0" width="33.6617549" height="97.5659014"></rect>
+                                    <mask id="mask-6" fill="white">
+                                        <use xlink:href="#path-5"></use>
+                                    </mask>
+                                    <use id="overlay" stroke-opacity="0.156646286" stroke="#2F343A" stroke-width="1" fill="none" xlink:href="#path-5"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

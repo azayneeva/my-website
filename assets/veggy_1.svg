@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="64px" viewBox="0 0 77 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>veggy_1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.999936521   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M3.0201396,0 C3.0201396,0 4.10135946,21.4971612 7.27469012,28.2572041 C7.67053179,29.1008034 8.3742503,30.0883771 9.30447821,31.1659347 C9.39904038,31.2739154 9.20551789,32.1580624 9.3044783,32.2682927 L0,32.2682927 L0,47.6341463 L4.62303848,47.6341463 C4.62303848,47.6341463 10.9956018,63 28.5885646,63 L48.3806477,63 C65.9736106,63 72.4980076,47.6341463 72.4980076,47.6341463 L76.9692123,47.6341463 L76.9692123,32.2682927 L67.7855225,32.2682927 C67.7855225,23.5713457 62.3086068,15.3658551 51.5693723,15.3658537 C40.8301377,15.3658523 35.4058377,25.1079311 35.4058377,33.804878 C35.3794482,27.6184828 33.9038385,19.1530798 32.2281088,15.5852169 C25.2832867,0.789608998 8.53258697,0 5.04258297,0 L3.0201396,0 Z" id="path-2"></path>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="76.9692123" height="63" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <rect id="path-4" x="50.7996801" y="21.5121951" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <rect id="path-6" x="50.7996801" y="24.5853659" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-6"></use>
+        </mask>
+        <rect id="path-8" x="50.7996801" y="27.6585366" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-8"></use>
+        </mask>
+        <rect id="path-10" x="50.7996801" y="30.7317073" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+        <rect id="path-12" x="53.8784486" y="29.195122" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-13" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-12"></use>
+        </mask>
+        <rect id="path-14" x="56.9572171" y="29.195122" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-15" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-14"></use>
+        </mask>
+        <rect id="path-16" x="60.0359856" y="27.6585366" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-17" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-16"></use>
+        </mask>
+        <rect id="path-18" x="55.4178329" y="26.1219512" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-19" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-18"></use>
+        </mask>
+        <rect id="path-20" x="56.9572171" y="23.0487805" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-21" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-20"></use>
+        </mask>
+        <rect id="path-22" x="44.6421431" y="23.0487805" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-23" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-22"></use>
+        </mask>
+        <rect id="path-24" x="46.1815274" y="26.1219512" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-25" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-24"></use>
+        </mask>
+        <rect id="path-26" x="47.7209116" y="29.195122" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-27" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-26"></use>
+        </mask>
+        <rect id="path-28" x="44.6421431" y="29.195122" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-29" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-28"></use>
+        </mask>
+        <rect id="path-30" x="41.5633747" y="27.6585366" width="1.53938425" height="1.53658537"></rect>
+        <mask id="mask-31" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.53938425" height="1.53658537" fill="white">
+            <use xlink:href="#path-30"></use>
+        </mask>
+        <rect id="path-32" x="4.61815274" y="44.5609756" width="67.7329068" height="1.53658537"></rect>
+        <mask id="mask-33" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="67.7329068" height="1.53658537" fill="white">
+            <use xlink:href="#path-32"></use>
+        </mask>
+        <rect id="path-34" x="2" y="33.804878" width="73" height="5.29268293"></rect>
+        <mask id="mask-35" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="73" height="5.29268293" fill="white">
+            <use xlink:href="#path-34"></use>
+        </mask>
+        <rect id="path-36" x="2" y="33.804878" width="75" height="1.53658537"></rect>
+        <mask id="mask-37" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="75" height="1.53658537" fill="white">
+            <use xlink:href="#path-36"></use>
+        </mask>
+    </defs>
+    <g id="Resume" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.73">
+        <g id="my-cv_for-GitHub" transform="translate(-171.000000, -3125.000000)" stroke="#4A4A4A">
+            <g id="interests" transform="translate(147.000000, 3035.000000)">
+                <g id="vegetarian" transform="translate(12.000000, 89.000000)">
+                    <g id="veggy_1" transform="translate(12.000000, 1.000000)">
+                        <g id="Vector-Smart-Object" filter="url(#filter-1)">
+                            <use id="Shape" mask="url(#mask-3)" stroke-width="4" xlink:href="#path-2"></use>
+                            <path d="M24.6301479,33.804878 C24.6301479,33.804878 24.6039683,27.6293348 20.5574494,20.6643721 C16.5109305,13.6994095 13.2170569,11.5724085 13.2170569,11.5724085" id="Shape"></path>
+                        </g>
+                        <use id="Rectangle-76" mask="url(#mask-5)" stroke-width="2" xlink:href="#path-4"></use>
+                        <use id="Rectangle-76" mask="url(#mask-7)" stroke-width="2" xlink:href="#path-6"></use>
+                        <use id="Rectangle-76" mask="url(#mask-9)" stroke-width="2" xlink:href="#path-8"></use>
+                        <use id="Rectangle-76" mask="url(#mask-11)" stroke-width="2" xlink:href="#path-10"></use>
+                        <use id="Rectangle-76" mask="url(#mask-13)" stroke-width="2" xlink:href="#path-12"></use>
+                        <use id="Rectangle-76" mask="url(#mask-15)" stroke-width="2" xlink:href="#path-14"></use>
+                        <use id="Rectangle-76" mask="url(#mask-17)" stroke-width="2" xlink:href="#path-16"></use>
+                        <use id="Rectangle-76" mask="url(#mask-19)" stroke-width="2" xlink:href="#path-18"></use>
+                        <use id="Rectangle-76" mask="url(#mask-21)" stroke-width="2" xlink:href="#path-20"></use>
+                        <use id="Rectangle-76" mask="url(#mask-23)" stroke-width="2" xlink:href="#path-22"></use>
+                        <use id="Rectangle-76" mask="url(#mask-25)" stroke-width="2" xlink:href="#path-24"></use>
+                        <use id="Rectangle-76" mask="url(#mask-27)" stroke-width="2" xlink:href="#path-26"></use>
+                        <use id="Rectangle-76" mask="url(#mask-29)" stroke-width="2" xlink:href="#path-28"></use>
+                        <use id="Rectangle-76" mask="url(#mask-31)" stroke-width="2" xlink:href="#path-30"></use>
+                        <use id="Rectangle-74" mask="url(#mask-33)" stroke-width="2" xlink:href="#path-32"></use>
+                        <use id="Rectangle-74" mask="url(#mask-35)" stroke-width="2" fill="#4A4A4A" opacity="0.821444746" xlink:href="#path-34"></use>
+                        <use id="Rectangle-74" mask="url(#mask-37)" stroke-width="2" xlink:href="#path-36"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

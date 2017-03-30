@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="65px" viewBox="0 0 66 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>veggy_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.999936521   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M49.0126582,9.14285714 C43.9378059,9.14285714 39.8227848,13.2368254 39.8227848,18.2857143 C39.8227848,23.3346032 43.9378059,27.4285714 49.0126582,27.4285714 C54.0875105,27.4285714 58.2025316,23.3346032 58.2025316,18.2857143 C58.2025316,13.2368254 54.0875105,9.14285714 49.0126582,9.14285714 L49.0126582,9.14285714 L49.0126582,9.14285714 L49.0126582,9.14285714 L49.0126582,9.14285714 Z" id="path-2"></path>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18.3797468" height="18.2857143" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <path d="M47.3757494,0 C47.3757494,0 34.6120363,0 32.5698422,8 C32.3125258,9.014 31.7264161,9.334 30.8809477,9.334 C29.4064836,9.334 27.1355638,8.358 24.3908549,8.358 C21.9667705,8.358 19.1710068,9.122 16.2322895,12 C14.1900954,14 16.2322895,20 16.2322895,20 C16.2322895,20 12.1479013,20 8.06351313,24 C5.78442452,26.232 6.9738924,28.4761905 7.68253375,30.4761905 L0,30.4761905 C0,36.8241905 8.07273691,48 20.3259015,52 C24.4102897,52 24.4010659,54.8571429 24.4010659,54.8571429 L19.8061292,54.8571429 C16.9858591,54.8571429 13.6795469,56.238 13.6795469,59 L13.6795469,64 L50.513641,64 L50.513641,59 C50.513641,56.238 47.1753571,54.8571429 44.3550871,54.8571429 L39.8227848,54.8571429 C39.8227848,54.8571429 40.7386186,52 44.8230068,52 C57.0761714,48 64.316587,37.0961905 64.316587,30.4761905 L56.5656228,30.4761905 C56.5656228,29.3361905 56.2347874,28.054 55.0503148,27.472 C57.535665,25.454 59.1183655,22.408 59.1183655,19 C59.1183655,12.924 54.0904836,8 47.8862979,8 C46.6283064,8 46.3812009,7.642 45.8910743,7.642 C45.6480532,7.642 45.3437663,7.732 44.8230068,8 C45.1232093,4.388 46.8652009,0 46.8652009,0 L47.3757494,0 Z" id="path-4"></path>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="64.316587" height="64" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <rect id="path-6" x="10.721519" y="32" width="42.8860759" height="2.07792208"></rect>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="42.8860759" height="2.07792208" fill="white">
+            <use xlink:href="#path-6"></use>
+        </mask>
+        <rect id="path-8" x="27.5696203" y="56.3809524" width="9.18987342" height="1.52380952"></rect>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="9.18987342" height="1.52380952" fill="white">
+            <use xlink:href="#path-8"></use>
+        </mask>
+        <rect id="path-10" x="15" y="60" width="34.0126582" height="3.45887446"></rect>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="34.0126582" height="3.45887446" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+    </defs>
+    <g id="Resume" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.73">
+        <g id="my-cv_for-GitHub" transform="translate(-266.000000, -3124.000000)" stroke="#4A4A4A">
+            <g id="interests" transform="translate(147.000000, 3035.000000)">
+                <g id="vegetarian" transform="translate(12.000000, 89.000000)">
+                    <g id="veggy_2" filter="url(#filter-1)" transform="translate(107.000000, 0.000000)">
+                        <path d="M18.8902954,22 C22.9746835,26 23.6220591,28.684 29.1012658,26" id="Shape"></path>
+                        <use id="Shape" mask="url(#mask-3)" stroke-width="2" xlink:href="#path-2"></use>
+                        <path d="M51.5654008,14 C51.5654008,14 57.6919831,6 65.8607595,6" id="Shape"></path>
+                        <use id="Shape" mask="url(#mask-5)" stroke-width="4" xlink:href="#path-4"></use>
+                        <use id="Rectangle-90" mask="url(#mask-7)" stroke-width="22" xlink:href="#path-6"></use>
+                        <use id="Rectangle-90" mask="url(#mask-9)" stroke-width="2" xlink:href="#path-8"></use>
+                        <use id="Rectangle-90" mask="url(#mask-11)" stroke-width="14" opacity="0.872339221" xlink:href="#path-10"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

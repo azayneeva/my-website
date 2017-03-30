@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ENG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="35.7142857" cy="35.7142857" r="35.7142857"></circle>
+        <rect id="path-3" x="0" y="0" width="101" height="72.1428571" rx="2"></rect>
+        <rect id="path-5" x="2.4047619" y="2.4047619" width="96.1904762" height="67.3333333" rx="1"></rect>
+    </defs>
+    <g id="Resume" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="my-cv" transform="translate(-353.000000, -2741.000000)">
+            <g id="tools&amp;skills" transform="translate(147.000000, 2117.000000)">
+                <g id="ENG" transform="translate(204.000000, 624.000000)">
+                    <g transform="translate(2.000000, 0.000000)">
+                        <path d="M50,100 C77.6142375,100 100,77.6142375 100,50 C100,22.3857625 77.6142375,0 50,0 C36.7034417,0 24.6191201,5.19020205 15.662469,13.6551722 C6.01798409,22.7702171 0,35.6823208 0,50 C0,77.6142375 22.3857625,100 50,100 Z" id="Oval-10" fill="#CECACA"></path>
+                        <path d="M0.231906962,50.7142857 C0.0892548112,50.8291941 0,50.8512622 0,50.7142857 C0,23.1000482 21.3143339,0 48.9285714,0 C49.0450235,0 49.1248052,0.0404023611 49.1717013,0.117317686 L49.2857143,4.72510919e-13 L50.6257219,50.7142857 L0.231906967,50.7142857 Z" id="Combined-Shape" fill="#EDEDED"></path>
+                        <g id="Group-6" transform="translate(14.285714, 14.285714)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Oval-9" stroke="#979797" fill="#D8D8D8" xlink:href="#path-1"></use>
+                            <g id="GB" mask="url(#mask-2)">
+                                <g transform="translate(-15.714286, 0.000000)">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="background" stroke="none" fill="#587FC6" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                    <polygon id="band" stroke="none" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-4)" points="14.4285713 4.80952363 4.68271013 4.93633737 4.80952392 14.4285714 86.4837073 67.4684063 96.2807899 67.2903752 96.1027595 57.8493616"></polygon>
+                                    <polygon id="band" stroke="none" fill="#F27C8A" fill-rule="evenodd" mask="url(#mask-4)" points="9.61904773 4.80952389 4.80952365 9.61904735 91.3809494 67.3333312 96.1904792 62.5238116"></polygon>
+                                    <path d="M86.5714283,4.80952387 L96.1904763,4.80952377 L96.1904768,14.4285713 C96.1904768,14.4285713 39.6817579,50.0008305 14.5162884,67.468409 C14.2103328,67.6807755 4.90716501,67.4836938 4.90716501,67.4836938 L4.1592764,58.3286011 L86.5714283,4.80952387 L86.5714283,4.80952387 Z" id="band" stroke="none" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-4)"></path>
+                                    <polygon id="band" stroke="none" fill="#F27C8A" fill-rule="evenodd" mask="url(#mask-4)" points="91.5870612 4.67567516 96.1904762 9.61904759 9.61904617 67.3333344 4.80952385 62.5238094"></polygon>
+                                    <polygon id="cross" stroke="none" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-4)" points="38.4761905 4.80952381 62.5238095 4.80952381 62.5238095 24.047619 96.1904762 24.047619 96.1904762 48.0952381 62.5238095 48.0952381 62.5238095 67.3333333 38.4761905 67.3333333 38.4761905 48.0952381 4.80952381 48.0952381 4.80952381 24.047619 38.4761905 24.047619"></polygon>
+                                    <polygon id="cross" stroke="none" fill="#F27C8A" fill-rule="evenodd" mask="url(#mask-4)" points="43.2857143 4.80952381 57.7142857 4.80952381 57.7142857 28.8571429 96.1904762 28.8571429 96.1904762 43.2857143 57.7142857 43.2857143 57.7142857 67.3333333 43.2857143 67.3333333 43.2857143 43.2857143 4.80952381 43.2857143 4.80952381 28.8571429 43.2857143 28.8571429"></polygon>
+                                    <mask id="mask-6" fill="white">
+                                        <use xlink:href="#path-5"></use>
+                                    </mask>
+                                    <use id="overlay" stroke-opacity="0.156646286" stroke="#2F343A" stroke-width="1" fill="none" xlink:href="#path-5"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
