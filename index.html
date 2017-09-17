@@ -1,310 +1,352 @@
 <html>
-	<head>
-		<title>Alina's CV</title>
-		<style>
-			html,
-			body {
-				margin:0;
-				padding: 0;
-				box-sizing: border-box;
-				font-family: 'Droid Serif', serif;
-			}
 
-			a {
-				text-decoration: none;
-				color: inherit;
-			}
-			main > header,
-			main > article,
-			main > footer {
-				max-width: 1200px;
-				margin: 0 auto;
-				padding: 15px;
-			}
+<head>
+	<title>Alina's CV</title>
+	<style>
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Droid Serif', serif;
+		}
 
-			main > footer {
-				background-color:#FEEBE7;
-				padding:30px;
-			}
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
 
-			main footer ul li {
-				min-width: 45%;
-			}
+		main>header,
+		main>article,
+		main>footer {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 15px;
+		}
 
-			main footer ul li img{
-				display: inline-block;
-				margin-right: 20px;
-			}
+		main>footer {
+			background-color: #FEEBE7;
+			padding: 30px;
+		}
 
-			header {
-				background-color:#f3f6f8;
-				display: flex;
-				justify-content:space-around;
-			}
+		main footer ul li {
+			min-width: 45%;
+		}
 
-			header > hgroup {
-				width: 60%;
-				padding-top:50px;
-				padding-bottom:50px;
-				text-align: center;
-			}
+		main footer ul li img {
+			display: inline-block;
+			margin-right: 20px;
+		}
 
-			header > hgroup h3 {
-				font-family: cursive;
-				font-size: 16px;
-				color:#69657D;
-				margin:0;
-				margin-top: 20px;
-			}
+		header {
+			background-image: linear-gradient(90deg, #f3f6f7 0%, #afe3d2 100%);
 
-			header > hgroup h1 {
-				font-family: serif;
-				font-size: 35px;
-				margin: 0;
-				text-transform: uppercase;
-				color:#69657D;
-				font-weight: lighter;
-			}
+			display: flex;
+			justify-content: space-around;
+		}
 
-			header > hgroup h2 {
-				font-family: cursive;
-				margin: 0;
-				font-weight: bold;
-				font-size: 24px;
-				color:#F0A69C;
-			}
+		header>hgroup {
+			width: 60%;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			text-align: center;
+		}
 
-			article h2,
-			footer h2 {
-				color:#F0A69C;
-				border-bottom:1px solid #ffedeb;
-				width: 50%;
-				margin-bottom: 30px;
-			}
+		header>hgroup h3 {
+			font-family: cursive;
+			font-size: 16px;
+			color: #69657D;
+			margin: 0;
+			margin-top: 20px;
+		}
 
-			footer {
-				text-align: center;
-			}
+		header>hgroup h1 {
+			font-family: serif;
+			font-size: 35px;
+			margin: 0;
+			text-transform: uppercase;
+			color: #69657D;
+			font-weight: lighter;
+		}
 
-			footer ul {
-				text-align: left;
-			}
+		header>hgroup h2 {
+			font-family: cursive;
+			margin: 0;
+			font-weight: bold;
+			font-size: 24px;
+			color: #F0A69C;
+		}
 
-			footer h2 {
-				display: inline-block;
-				border-bottom: 3px solid #77748A;
-				color: #77748A;
-				width: auto;
-				font-family: cursive;
-				font-size: 30px;
-				margin-top: 0;
-			}
+		#me {
+			margin-bottom: -72px;
+		}
 
-			p {
-				line-height: 1.8em;
-			}
+		article h2,
+		footer h2 {
+			color: #F0A69C;
+			border-bottom: 1px solid #ffedeb;
+			width: 50%;
+			margin-bottom: 30px;
+		}
+		article h2 {
+			padding-left: 2em;
+		}
 
-			.timeline {
-				width: 800px;
-				margin:auto;
-				margin-top:55px;
-			}
+		footer {
+			text-align: center;
+		}
 
-			.timeline section{
-				width: 400px;
-				position: relative;
-			}
+		footer ul {
+			text-align: left;
+		}
 
-			.timeline section:after {
-				content: '';
-				display: block;
-				width: 15px;
-				height: 15px;
-				border-radius: 100%;
-				background: #F0A69C;
-				position: absolute;
-				top: 46%;
-			}
+		footer h2 {
+			display: inline-block;
+			border-bottom: 3px solid #77748A;
+			color: #77748A;
+			width: auto;
+			font-family: cursive;
+			font-size: 30px;
+			margin-top: 0;
+		}
 
-			.timeline section:nth-child(even){
-				border-right: 2px solid #ececec;;
-				text-align: right;
-			}
+		p {
+			line-height: 1.2em;
+			padding-left: 2em;
+			padding-right: 2em;
+		}
 
-			.timeline section:nth-child(even):after{
-				right: -8px;
-			}
+		.timeline {
+			width: 800px;
+			margin: auto;
+			margin-top: 55px;
+		}
 
-			.timeline section:nth-child(odd){
-				margin-left: 50%;
-				border-left: 2px solid #ececec;;
-				text-align: left;
-				direction: rtl;
-			}
+		.timeline section {
+			width: 400px;
+			position: relative;
+		}
 
-			.timeline section:nth-child(odd) span{
-				direction: ltr;
-			}
+		.timeline section:after {
+			content: '';
+			display: block;
+			width: 15px;
+			height: 15px;
+			border-radius: 100%;
+			background: #F0A69C;
+			position: absolute;
+			top: 46%;
+		}
 
-			.timeline section:nth-child(odd):after {
-				left: -8px;
-			}
+		.timeline section:nth-child(even) {
+			border-right: 2px solid #ececec;
+			;
+			text-align: right;
+		}
 
-			.timeline section span {
-				padding: 15px;
-				display: inline-block;
-				vertical-align: middle;
-			}
+		.timeline section:nth-child(even):after {
+			right: -8px;
+		}
 
-			.timeline section .description {
-				width: 200px;
-			}
+		.timeline section:nth-child(odd) {
+			margin-left: 50%;
+			border-left: 2px solid #ececec;
+			;
+			text-align: left;
+			direction: rtl;
+		}
 
-			.timeline section .year {
-				width: 100px;
-				padding: 30px;
-			}
+		.timeline section:nth-child(odd) span {
+			direction: ltr;
+		}
 
-			ul {
-				list-style-type: none;
-				margin:0;
-				padding:0;
-			}
+		.timeline section:nth-child(odd):after {
+			left: -8px;
+		}
 
-			ul li {
-				display: inline-block;
-				min-width: 260px;
-				margin-left: 50px;
-				margin-bottom: 20px;
-			}
+		.timeline section span {
+			padding: 15px;
+			display: inline-block;
+			vertical-align: middle;
+		}
 
-			ul li span {
-				min-width: 250px;
-				display: inline-block;
-			}
+		.timeline section .description {
+			width: 200px;
+		}
 
-			ul li span,
-			ul li img {
-				vertical-align: middle;
-				padding-left: 10px;
-			}
+		.timeline section .year {
+			width: 100px;
+			padding: 30px;
+		}
 
-			.languages {
-				margin-top: 60px;
-			}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
 
-			.interests,
-			.languages {
-				text-align: center;
-			}
+		ul li {
+			display: inline-block;
+			min-width: 260px;
+			margin-left: 50px;
+			margin-bottom: 20px;
+		}
 
-			.interests img,
-			.languages img {
-				display: block;
-				margin: auto;
-				margin-bottom:10px;
-			}
+		ul li span {
+			min-width: 250px;
+			display: inline-block;
+		}
 
-			.interests h2 {
-				text-align: left;
-			}
+		ul li span,
+		ul li img {
+			vertical-align: middle;
+			padding-left: 10px;
+		}
 
-		</style>
-		<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
-	</head>
-	<body>
-		<main>
-			<header>
-				<hgroup>
-					<h3>Hello! My name is</h3>
-					<h1>Alina Solinas<br /><em>&</em></h1>
-					<h2>I'm a UX designer</h2>
-				</hgroup>
-				<img src="assets/me.svg" />
-			</header>
-			<article>
-				<h2>About me</h2>
-				<p>
-					I always had a strong interest in Art and mathematics. After a degree in economics and building up a solid analytical skill set I decided to move from project management to product design and development. I recently had the possibility to start a career change after relocating to London. So I decided to use this chance and study UX design, coding, and programming.
-				</p>
-			</article>
+		.languages {
+			margin-top: 60px;
+		}
 
-			<article>
-				<h2>Education & Work Experience</h2>
-				<div class="timeline">
-					<section><span class="description">School</span> <span class="year">1995-2005</span></section>
-					<section><span class="description">Art school</span> <span class="year">1998-2003</span></section>
-					<section><span class="description">B.S., M.S. International Economics, Moscow State University of Economics, Statistics and Computer Science (MESI)</span> <span class="year">2005-2012</span></section>
-					<section><span class="description">Lecturer of "International Relations" at MESI</span> <span class="year">2010-2013</span></section>
-					<section><span class="description">Project Manager, Department of e-Learning Projects at MESI</span> <span class="year">2010-2013</span></section>
-					<section><span class="description">Analyst and UX Researcher at NPTV</span> <span class="year">2013-2015</span></section>
-					<section><span class="description">Training Development Project Manager at NetCracker</span> <span class="year">2015-2016</span></section>
-					<section><span class="description">UX Design Student at CareerFoundry</span> <span class="year">Aug 2016-Feb 2017</span></section>
+		.interests,
+		.languages {
+			text-align: center;
+		}
 
-				</div>
-			</article>
+		.interests img,
+		.languages img {
+			display: block;
+			margin: auto;
+			margin-bottom: 10px;
+		}
 
-			<article>
-				<h2>Tools and skills</h2>
-				<ul>
-					<li><span>Sketch</span><img src="assets/three_dots.svg" alt="Good"/></li>
-					
-					<li><span>InVision</span><img src="assets/three_dots.svg" alt="Good"/></li>
-					
-					<li><span>UXPin</span><img src="assets/three_dots.svg" alt="Good"/></li>
-					
-					<li><span>Framer</span><img src="assets/two_dots.svg" alt="Decent"/></li>
+		.interests h2 {
+			text-align: left;
+		}
 
-					<li><span>Illustrator</span><img src="assets/two_dots.svg" alt="Decent"/></li>
+		table {
+			border-collapse: collapse;
+			width: 70%;
+			margin-left: 15%;
+			margin-right: 15%;
+		}
 
-					<li><span>HTML 5</span><img src="assets/two_dots.svg" alt="Decent"/></li>
+		td,
+		th {
+			border: 1px solid #ececec;
+			text-align: left;
+			padding: 1em;
+		}
 
-					<li><span>CSS 3</span><img src="assets/one_dot.svg" alt="Beginner"/></li>
+		tr:nth-child(odd) {
+			background-color: #FFF3F1;
+		}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+</head>
 
-					<li><span>Prototyping</span><img src="assets/two_dots.svg" alt="Decent"/></li>
+<body>
+	<main>
+		<header>
+			<hgroup>
+				<h3>Hello! My name is</h3>
+				<h1>Alina Solinas<br /><em>&</em></h1>
+				<h2>I am a Full Stack Javascript Developer <br>
+						at Founders & Coders C.I.C.</h2>
+			</hgroup>
+			<img id="me" src="assets/face copy.svg" />
+		</header>
+		<article>
+			<h2>About me</h2>
+			<p>
+				I am a full-stack Javascript developer based in London, UK. I am a passionate learner and problem solver, with deep interests in peer-led education, agile methodology, and user-centred design.
+			</p>
+		</article>
 
-					<li><span>User Testing</span><img src="assets/three_dots.svg" alt="Good"/></li>
+		<article>
+			<h2>Education & Work Experience</h2>
+			<div class="timeline">
+				<section><span class="description">School</span> <span class="year">1995-2005</span></section>
+				<section><span class="description">Art school</span> <span class="year">1998-2003</span></section>
+				<section><span class="description">B.S., M.S. International Economics, Moscow State University of Economics, Statistics and Computer Science (MESI)</span> <span class="year">2005-2012</span></section>
+				<section><span class="description">Lecturer of "International Relations" at MESI</span> <span class="year">2010-2013</span></section>
+				<section><span class="description">Project Manager, Department of e-Learning Projects at MESI</span> <span class="year">2010-2013</span></section>
+				<section><span class="description">Analyst and UX Researcher at NPTV</span> <span class="year">2013-2015</span></section>
+				<section><span class="description">Training Development Project Manager at NetCracker</span> <span class="year">2015-2016</span></section>
+				<section><span class="description">UX Design Student at CareerFoundry</span> <span class="year">Aug 2016-Feb 2017</span></section>
+				<section><span class="description">Full-Stack Developer at CareerFoundry</span> <span class="year">Jun 2017-present</span></section>
 
-					<li><span>User Research</span><img src="assets/three_dots.svg" alt="Good"/></li>
+			</div>
+		</article>
 
-					<li><span>Wireframing</span><img src="assets/three_dots.svg" alt="Good"/></li>
+		<article>
+			<h2>Technologies</h2>
+			<table>
+				<tr>
+					<th>Languages</th>
+					<th>Frameworks/Libraries</th>
+					<th>Databases</th>
+					<th>Tools/Others</th>
+				</tr>
+				<tr>
+					<td>JavaScript</td>
+					<td>Express.js</td>
+					<td>PostgreSQL</td>
+					<td>Git, GitHub</td>
+				</tr>
+				<tr>
+					<td>Node.js</td>
+					<td>jQuery</td>
+					<td></td>
+					<td>Heroku</td>
+				</tr>
+				<tr>
+					<td>CSS</td>
+					<td></td>
+					<td></td>
+					<td>TDD</td>
+				</tr>
+				<tr>
+					<td>HTML</td>
+					<td></td>
+					<td></td>
+					<td>Handlebars</td>
+				</tr>
+			</table>
+		</article>
 
-					<li><span>UI Design</span><img src="assets/two_dots.svg" alt="Decent"/></li>
+		<article>
+			<h2>Languages</h2>
 
-					<li><span>Personas/Scenarios/User Stories</span><img src="assets/three_dots.svg" alt="Good"/></li>
-				</ul>
+			<ul div class="languages">
+				<li><img src="assets/RU.svg" alt="RU" />Russian Native</li>
+				<li><img src="assets/ENG.svg" alt="ENG" />English Advanced</li>
+				<li><img src="assets/IT.svg" alt="IT" />Italian Beginner</li>
+			</ul>
+		</article>
 
-				
-				<ul div class="languages">
-					<li><img src="assets/RU.svg" alt="RU"/>Russian Native</li>
-					<li><img src="assets/ENG.svg" alt="ENG"/>English Advanced</li>
-					<li><img src="assets/IT.svg" alt="IT"/>Italian Beginner</li>
-				</ul>
 
-			</article>
 
-			<article class="interests">
+		<article class="interests">
 			<h2>Interests</h2>
-				<ul>
-					<li><img src="assets/veggy_1.svg" alt="Veggy"/>Vegetarian cuisine and lifestyle</li>
-					<li><img src="assets/travelling.svg" alt="travelling"/>Travelling</li>
-					<li><img src="assets/drawing.svg" alt="drawing"/>Drawing</li>
-					<li><img src="assets/writing.svg" alt="writing"/>Writing</li>
-					<li><img src="assets/yoga.svg" alt="yoga"/>Yoga</li>
-				</ul>
-			</article>
+			<ul>
+				<li><img src="assets/veggy_1.svg" alt="Veggy" />Vegetarian cuisine and lifestyle</li>
+				<li><img src="assets/travelling.svg" alt="travelling" />Travelling</li>
+				<li><img src="assets/drawing.svg" alt="drawing" />Drawing</li>
+				<li><img src="assets/writing.svg" alt="writing" />Writing</li>
+				<li><img src="assets/yoga.svg" alt="yoga" />Yoga</li>
+			</ul>
+		</article>
 
-			<footer>
-				<h2>Get in touch</h2>
-				<ul>
-					<li><img src="assets/london.svg" alt="london"/> London, UK</li>
-					<li><img src="assets/@.svg" alt="@"/><a href="mailto:azayneeva@gmail.com">azayneeva@gmail.com</a></li>
-					<li><img src="assets/Viber.svg" alt="Viber"/><a href="tel:+447490744081">+447490744081</a></li>
-					<li><img src="assets/Behance.svg" alt="Behance"/><a href="https://www.behance.net/
-alinasolinas">https://www.behance.net/
-alinasolinas</a></li>
-				</ul>
-			</footer>
-		</main>
-	</body>
+		<footer>
+			<h2>Get in touch with me</h2>
+			<ul>
+				<li><img src="assets/london.svg" alt="london" /> London, UK</li>
+				<li><img src="assets/@.svg" alt="@" /><a href="mailto:azayneeva@gmail.com">azayneeva@gmail.com</a></li>
+				<li><img src="assets/Viber.svg" alt="Viber" /><a href="tel:+447490744081">+447490744081</a></li>
+				<li><img src="assets/linkedin-logo.svg" alt="Linkedin" /><a href="https://www.linkedin.com/in/alina-solinas-838459120/">Linkedin</a></li>
+			</ul>
+		</footer>
+	</main>
+</body>
+
 </html>
