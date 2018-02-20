@@ -16,6 +16,10 @@
 			color: inherit;
 		}
 
+		ul li {
+			list-style-position: inside
+		}
+
 		main>header,
 		main>article,
 		main>footer {
@@ -29,11 +33,11 @@
 			padding: 30px;
 		}
 
-		main footer ul li {
+		main footer .unstyled-list li {
 			min-width: 45%;
 		}
 
-		main footer ul li img {
+		main footer .unstyled-list li img {
 			display: inline-block;
 			margin-right: 20px;
 		}
@@ -116,6 +120,10 @@
 			padding-right: 2em;
 		}
 
+		.experience-link {
+			text-decoration: underline;
+		}
+
 		.timeline {
 			width: 800px;
 			margin: auto;
@@ -179,26 +187,26 @@
 			padding: 30px;
 		}
 
-		ul {
+		.unstyled-list {
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
 		}
 
-		ul li {
+		.unstyled-list li {
 			display: inline-block;
 			min-width: 260px;
 			margin-left: 50px;
 			margin-bottom: 20px;
 		}
 
-		ul li span {
+		.unstyled-list li span {
 			min-width: 250px;
 			display: inline-block;
 		}
 
-		ul li span,
-		ul li img {
+		.unstyled-list li span,
+		.unstyled-list li img {
 			vertical-align: middle;
 			padding-left: 10px;
 		}
@@ -221,6 +229,10 @@
 
 		.interests h2 {
 			text-align: left;
+		}
+
+		.styled-ul li {
+			padding-bottom: 5px;
 		}
 
 		table {
@@ -315,9 +327,26 @@
 		</article>
 
 		<article>
-			<h2>Languages</h2>
+			<h2>Software projects</h2>
 
-			<ul div class="languages">
+			<p>	Software Engineer | Power to Change | <a href="https://datapower.herokuapp.com/" class="experience-link">https://datapower.herokuapp.com/</a> 2017-2018 </p>
+			<p>A user data-collection service for <a href="http://www.powertochange.org.uk/" class="experience-link">Power to Change's Twine platform</a>.</p>
+
+			<p>I was responsible for the ideation, prototype’s design and user testing of the app.
+			 As a software engineer I was responsible for the following features:</p>
+			 	<ul class="styled-ul">
+					<li>Secure login and signup.</li>
+					<li>Database architecture.</li>
+					<li>QR code generation and scanning.</li>
+					<li>Automatic emailing.</li>
+					<li>Administrative panels with data visualisation.</li>
+					<li>Styling.</li>
+				</ul>
+		</article>
+
+		<article>
+			<h2>Languages</h2>
+			<ul div class="languages unstyled-list">
 				<li><img src="assets/RU.svg" alt="RU" />Russian Native</li>
 				<li><img src="assets/ENG.svg" alt="ENG" />English Advanced</li>
 				<li><img src="assets/IT.svg" alt="IT" />Italian Beginner</li>
@@ -328,7 +357,7 @@
 
 		<article class="interests">
 			<h2>Interests</h2>
-			<ul>
+			<ul class="unstyled-list">
 				<li><img src="assets/veggy_1.svg" alt="Veggy" />Vegetarian cuisine and lifestyle</li>
 				<li><img src="assets/travelling.svg" alt="travelling" />Travelling</li>
 				<li><img src="assets/drawing.svg" alt="drawing" />Drawing</li>
@@ -339,7 +368,7 @@
 
 		<footer>
 			<h2>Get in touch with me</h2>
-			<ul>
+			<ul class="unstyled-list">
 				<li><img src="assets/@.svg" alt="@" /><a href="mailto:azayneeva@gmail.com">azayneeva@gmail.com</a></li>
 				<li><img src="assets/Viber.svg" alt="Viber" /><a href="tel:+447490744081">+447490744081</a></li>
 				<li><img src="assets/linkedin-logo.svg" alt="Linkedin" /><a href="https://www.linkedin.com/in/alina-solinas-838459120/">Linkedin</a></li>
